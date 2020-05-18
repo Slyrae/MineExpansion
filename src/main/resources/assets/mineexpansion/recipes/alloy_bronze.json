@@ -1,0 +1,36 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients": 
+    [
+
+    {
+      "item": "mineexpansion:ingot_tin",
+      "data": 0
+    },
+
+    {
+      "item": "mineexpansion:ingot_copper",
+      "data": 0
+      
+    },
+
+    {
+      "item": "mineexpansion:ingot_copper",
+      "data": 0
+    },
+
+    {
+      "item": "mineexpansion:ingot_copper",
+      "data": 0
+    }
+    
+    ],
+
+    "result": 
+    {
+        "item": "mineexpansion:alloy_bronze",
+        "data": 0,
+        "count": 2
+    }
+}

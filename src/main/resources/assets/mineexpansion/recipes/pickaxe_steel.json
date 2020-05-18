@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "xxx",
+        " s ",
+        " s "
+    ],
+    "key":
+    {
+        "x":
+        {
+            "item": "mineexpansion:ingot_steel",
+            "data": 0
+        },
+        "s":
+        {
+            "item": "minecraft:stick",
+            "data": 0
+        }
+    },
+    "result":
+    {
+        "item": "mineexpansion:pickaxe_steel",
+        "count": 1
+    }
+}

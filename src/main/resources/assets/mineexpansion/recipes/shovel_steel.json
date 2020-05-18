@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "xx",
+        "xs",
+        " s"
+    ],
+    "key": {
+        "x":
+        {
+            "type": "forge:ore_dict",
+            "ore": "steelIngot"
+        },
+        "s":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    "result":
+    {
+        "item": "mineexpansion:shovel_steel",
+        "count": 1
+    }
+}

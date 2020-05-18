@@ -36,11 +36,11 @@ public class ItemBase extends Item {
 		Main.proxy.registerItemRenderer(this, 0, name);
 	}
 	
-	//@Override
+	/*@Override
 	public void addInformation(ItemStack stack, World worldIn, List<String> tooltip, ITooltipFlag flagIn) {
 		tooltip.add("Damage: " + stack.getItemDamage());
 		tooltip.add(phrase);
-	}
+	}*/
 	
 	
 	public void addInfo(String info)

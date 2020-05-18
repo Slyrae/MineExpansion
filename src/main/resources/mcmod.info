@@ -1,0 +1,16 @@
+[
+{
+  "modid": "mineexpansion",
+  "name": "MineExpansion",
+  "description": "A lightweight mod to enhance the gameplay experience while complimenting vanilla themes, artwork, and functionality. This mod is intended to be as flexible and configurable as possible to respect the player's right to choose how they want to play, and throw some neat things into the game.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Slyrae"],
+  "credits": "The Forge and FML guys, Tomanator420, and Krimsung.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

@@ -48,6 +48,12 @@ public class Main
     	logger.info("Pre-Initialization Started.");
     	if(Config.debug)logger.info("Debugging Enabled.");
     	
+    	logger.info("Loading config.yml...");
+    	Config config = new Config(event);
+    	logger.info("Done loading config.yml.");
+    	
+    	
+    	
     	preInitEvent = event;
     	
     	proxy.preInit();
@@ -61,6 +67,7 @@ public class Main
     	};
     	
     	RegistryHandler.Common();
+    	ItemInit.registerItemsToDictionary();
     	//ReplaceTextureHandler.replaceItemTextures();
         
         logger.info("Pre-Initialization Completed.");
